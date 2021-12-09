@@ -1,0 +1,13 @@
+name: census-analysis
+channels:
+    - conda-forge
+dependencies:
+  - python=3.9.7
+  - pandas
+  - jupyterlab
+  - ipywidgets
+  - nodejs
+  - pip
+  - voila
+  - pip:
+    - CensusData==1.15
