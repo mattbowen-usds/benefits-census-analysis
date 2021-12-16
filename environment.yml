@@ -8,6 +8,10 @@ dependencies:
   - ipywidgets
   - nodejs
   - pip
+  - openpyxl
+  - h5py
+  - PyTables
   - voila
   - pip:
     - CensusData==1.15
+    - data_cache==0.1.6
